@@ -1,0 +1,43 @@
+.article {
+    &__list {
+        display: flex;
+        width: 1200px;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+        margin-top: 94px;
+      }
+    
+    &__back-icon {
+        background-color: #f5f4fa;
+        height: 120px;
+        width: 270px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+      }
+    
+    &__icon {
+        width: 70px;
+        height: 70px;
+      }
+
+    &__header {
+        font-size: 0.875rem;
+        line-height: 1.1428;
+        letter-spacing: 0.03em;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+
+    &__text {
+        width: 270px;
+        height: 75px;
+        letter-spacing: 0.03em;
+        color: $gray;
+        font-size: 0.875rem;
+        line-height: 1.5rem;
+        letter-spacing: 0.03em;
+      }
+}

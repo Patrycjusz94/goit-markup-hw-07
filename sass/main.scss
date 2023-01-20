@@ -1,0 +1,13 @@
+@use "./utils/variables" as *;
+@use "./utils/global" as *;
+@import "./utils/variables";
+@import "./components/article";
+@import "./components/client";
+@import "./components/footer";
+@import "./components/header";
+@import "./components/hero";
+@import "./components/modal";
+@import "./components/portfolio-nav";
+@import "./components/project";
+@import "./components/services";
+@import "./components/team";

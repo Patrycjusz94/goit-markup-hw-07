@@ -1,0 +1,30 @@
+body {
+  font-family: "roboto", sans-serif;
+  position: relative;
+}
+
+* {
+    font-style: normal;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  
+.container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+
+  .line {
+    border-bottom: #ececec 1px solid;
+  }
+
+  .logo {
+    font-family: "raleway";
+    font-weight: 700;
+    font-size: 1.625rem;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+  }
